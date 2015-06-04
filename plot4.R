@@ -1,4 +1,4 @@
-#power <- read.table("household_power_consumption.txt",sep=";",na.strings = "?", header = TRUE)
+power <- read.table("household_power_consumption.txt",sep=";",na.strings = "?", header = TRUE)
 #Uncomment next line if dply is not installed
 #install.packages("dplyr")
 library(dplyr)

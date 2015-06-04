@@ -11,7 +11,7 @@ FebPower <- filter(power, Date == "2007-02-01" |
 DateTime <- as.POSIXct(paste(FebPower$Date,FebPower$Time),format=
                            "%Y-%m-%d %H:%M:%S")
 FebPower <- cbind(DateTime,FebPower)
-#Pulling just the DateTime and Global_active_power Columns of FebPower Dataframe
+Pulling just the DateTime and Global_active_power Columns of FebPower Dataframe
 FebPower <- select(FebPower,DateTime,Global_active_power)
 #To create Time Series graph I will first create an msts object
 #Uncomment next line if you need to install the forecast package
