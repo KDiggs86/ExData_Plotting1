@@ -29,5 +29,5 @@ ts.plot(FebPower.1,FebPower.2,FebPower.3, gpars = list(
 axis(1,c(1,2,3),c("Thu","Fri","Sat"))
 legend("topright",legend=c("Sub_metering_1","Sub_metering_2",
                           "Sub_metering_3"),
-       col=c("black","red","blue"), lty=1,cex=0.65)
+       col=c("black","red","blue"), lty=1,cex=1)
 dev.off()
